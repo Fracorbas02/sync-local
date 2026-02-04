@@ -1,0 +1,28 @@
+# Fichiers générés par Rust/Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Fichiers de lock (débat : certains les commitent, d'autres non)
+# Pour une application, on peut le garder
+# Cargo.lock
+
+# Fichiers IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration locale (secrets, tokens, etc.)
+config.local.toml
+*.key
+*.pem
+
+# Fichiers de test/debug
+test_files/
+debug/
